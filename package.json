@@ -1,0 +1,31 @@
+{
+  "name": "docker-node_mongo_api_restful",
+  "version": "1.0.0",
+  "description": "Simple API restful based in Node.js and Mongodb powered by Docker",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "nodemon src/server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/AlexGA93/docker-node_mongo_api_restful.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/AlexGA93/docker-node_mongo_api_restful/issues"
+  },
+  "homepage": "https://github.com/AlexGA93/docker-node_mongo_api_restful#readme",
+  "dependencies": {
+    "dotenv": "^10.0.0",
+    "express": "^4.17.1",
+    "express-validator": "^6.12.0",
+    "jsonwebtoken": "^8.5.1",
+    "mongoose": "^5.13.2"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.10"
+  }
+}
