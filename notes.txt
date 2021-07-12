@@ -1,0 +1,22 @@
+EC2 == Ellastic Computing Cloud
+https://www.youtube.com/watch?v=VLItX1PpAx8
+servidor en la nube dodne mantener ejecutando docker
+
+Pasos para crear un servidor
+================================
+1. Crear una instancia
+2. Launch Instance
+3. elegimos S.O-->ubuntu(por eescoger uno que sea 'free tier eligible')
+4. elegimos el plan (free tier)
+5. next add storage si ntocar nada
+6. next  hasta security group name --> permisos de acceder al servicio o instancia
+    'node' -> por coger alguno
+    'node'
+
+tabla con protocolos para la regola de acceso
+    ips permitidas
+    Add roule--> HTTP | 80 | anywhere
+    ''       --> HTTPS|    | anywhere
+    Queremos tbn desplegar una app desplegada en el puerto 3000
+
+    custom TCP  |3000 |anywhere
