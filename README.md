@@ -9,7 +9,7 @@ Windows
     ```
     PS C:\Users\username> docker --version
     ```
-- ✨Magic  with commands✨ at the next section
+- ✨Magic  with commands✨ at the wiki (You must read the entire document against read the wiki of the project)
 
 Linux
 - Install [Docker Engine](https://docs.docker.com/engine/install/ubuntu/) for Ubuntu/Debian
